@@ -1,0 +1,36 @@
+@font-face{
+font-family:"Alef-R";
+src:url("Alef-Regular.ttf");
+}
+
+p1{
+font-size:48px;
+font-style:normal;
+font-family:"Alef-R";
+}
+
+h1{
+font-size:108px;
+font-family:"Alef-R";
+color:red;
+}
+table, th, td{
+border-collapse:collapse;
+font-size:26px;
+font-family"Alef-R";
+color:green;
+border: 1px solid black;
+}
+th, td {
+		padding : 48px;
+}
+
+center{
+		font-family:"Alef-Regular";
+		font-size:48pt;
+		font-style:bold;
+		
+}
+
+
+body{background-image:url("paperBackground.jpg")}

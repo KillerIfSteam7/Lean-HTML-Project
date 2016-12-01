@@ -1,0 +1,53 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+<body>
+<h1><img src="bananaImage.png" alt="Image_banana" style="float:center; width:96px; height:96px;">JavaScript</h1>
+<p1>
+			JavaScript Is A Very Popular
+			<br>
+			Programming Langauge Which Adds A lot
+			<br>
+			Of Functionality To Your Website!
+			<br>
+			For Example.....Buttons, Variables, Objects And More......
+			<br>
+			Now Let's Take A Look At The Following Buttons, Tap Each Of Them And See What Happens.			        
+			<br>
+			<p2 id="demo" >Value : </p2>
+			<br>
+			<p3 id="demo2" >Random Number : </p3>
+			<br>
+			<p4 id="demo3" > Multiplied Number : </p4>
+			<br>
+			<button onclick="ChangeValue()" style="width:256px; height:128px">Increase Value</button>
+			<br>
+			<button onclick="SetRandom()" style="width:256px; height:128px">Random Number</button>
+			<br>
+			<button onclick="Multiply()" style="width:256px; height:128px">Mulitply The Var Number</button>
+				<script>
+					//Function 1
+					var number = 1;
+					function ChangeValue() {
+					document.getElementById("demo").innerHTML = "Value : " + number;
+					number += 1;
+					}
+					// Function 2
+					function SetRandom() {
+								document.getElementById("demo2").innerHTML = "Random Number : " + Math.random();
+					}
+					// Function 3
+					var working = 1;
+					function Multiply()
+					{
+							if (number > 0) 
+							{
+									working *= number;
+							}
+							document.getElementById("demo3").innerHTML = "Multiplied Number : " + working;
+					}
+				</script>
+</p1>
+</body>
+	</head>
+</html>
